@@ -38,8 +38,6 @@ This repository contains Terraform scripts for automating the creation of a Goog
 
     ```hcl
     gcp_project_id       = "your-gcp-project-id"
-    gcp_credentials_file = "path/to/your/credentials.json"
-    datadog_principal    = "your-datadog-principal"
     ```
 
 4. **Initialize Terraform**: Run the following command to initialize your Terraform workspace:
